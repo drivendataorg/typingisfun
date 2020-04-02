@@ -6,7 +6,7 @@ def lets_add_those(x: str, y: str, z: str = "cool"):
     return x.upper() + y.upper() + z.upper()
 
 
-def now_were_really_adding(x: int, y: int, z: int):
+def now_were_really_adding(x: int, y: int, z: int = 1):
     a = lets_add_these(x, y, z)
 
     e: str = str(x)
