@@ -3,7 +3,7 @@ def lets_add_these(x: int, y: int, z: int = 1):
 
 
 def lets_add_those(x: str, y: str, z: str = "cool"):
-    return x.upper() + y.upper() + z.upper()
+    return x + " " + y + " " + z
 
 
 def now_were_really_adding(x: int, y: int, z: int = 1):
