@@ -2,7 +2,7 @@ def lets_add_these(x, y, z=1):
     return x + y + z
 
 
-def lets_add_those(x: str, y: str, z: str = "cool"):
+def lets_add_those(x, y, z="cool"):
     return x + " " + y + " " + z
 
 
